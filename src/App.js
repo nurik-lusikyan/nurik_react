@@ -86,8 +86,8 @@ function App() {
   ]
   return (
     names.map(mard => <div style = {{display:"flex"}}>
-    <div style={{ border: "1px solid black", width: "100px", height:"25px", padding:"10px"}}>{mard.name}</div>
-    <div style={{ border: "1px solid black", width: "100px", height:"25px", padding:"10px"}}>{mard.surname}</div>
+    <div style={{ border: "1px solid black", width: "100px", height:"15px", padding:"10px"}}>{mard.name}</div>
+    <div style={{ border: "1px solid black", width: "100px", height:"15px", padding:"10px"}}>{mard.surname}</div>
     <div style={{ border: "1px solid black", width:`${mard.age}px`, backgroundColor: `rgb(${mard.r},${mard.g},${mard.b},)`}}>{mard.age}</div>
   
     </div>)
